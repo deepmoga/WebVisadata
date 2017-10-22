@@ -12,5 +12,6 @@ namespace Visaapp.Models
         [Display(Name="Country Name")]
         [Required (ErrorMessage="Please Enter Country Name")]
         public string CountryName { get; set; }
+       
     }
 }
